@@ -5,3 +5,7 @@ function addition(nb1,nb2){
 addition()
 
 
+function soustraction(nb1,nb2){
+    return nb2-nb1   
+}
+soustraction()
