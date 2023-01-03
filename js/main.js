@@ -21,3 +21,9 @@ function divise(nb1,nb2){
     return nb1/nb2
 }
 divise()
+
+
+function modulo(nb1,nb2){
+    return nb1 % nb2
+}
+modulo()
