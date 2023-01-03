@@ -133,3 +133,18 @@ function divPar2(nb){
 
 // EXO3
 // Créer une fonction [logIn] qui va demander à l'utilisateur un mot de passe et vérifier s'il a bien entré "mdp" si oui, faites une alert "Vous êtes connecté", si non, redemander le mot de passe jusqu'à ce que l'utilisateur rentre "mdp"
+
+
+function logIn(pass){
+    switch (true) {
+        case pass === "mdp":
+            alert ('c bon merci')
+            break;
+
+            
+        default:
+            alert ('refait')
+            break;
+    }
+}
+logIn()
