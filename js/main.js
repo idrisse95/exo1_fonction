@@ -33,3 +33,9 @@ function carrer(nb){
     return Math.sqrt(nb)
 }
 carrer()
+
+
+function exposant(nb1,nb2){
+    return Math.pow(nb1,nb2)
+}
+exposant()
