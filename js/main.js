@@ -17,3 +17,7 @@ function multi(nb1,nb2){
 multi()
 
 
+function divise(nb1,nb2){
+    return nb1/nb2
+}
+divise()
