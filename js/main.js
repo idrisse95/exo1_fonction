@@ -27,3 +27,9 @@ function modulo(nb1,nb2){
     return nb1 % nb2
 }
 modulo()
+
+
+function carrer(nb){
+    return Math.sqrt(nb)
+}
+carrer()
