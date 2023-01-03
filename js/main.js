@@ -141,10 +141,46 @@ function logIn(pass){
             alert ('c bon merci')
             break;
 
-            
+
         default:
             alert ('refait')
             break;
     }
 }
 logIn()
+
+
+
+
+
+
+
+
+
+// exo3
+
+
+// Écrivez une fonction qui prend un nombre en entrée et qui renvoie la somme des n premiers nombres naturels.
+// Par exemple, si on appelle la fonction avec 5 en entrée, elle devra renvoyer 15 (1 + 2 + 3 + 4 + 5).
+
+function som(nb) {
+    for (let i = 0; i < nb; i++) {
+       return nb + i
+    }
+    
+}
+
+
+
+// Écrivez une fonction qui prend un nombre en entrée et qui renvoie vrai si ce nombre est un nombre premier, et faux sinon.
+// Un nombre premier est un nombre qui n'est divisible que par 1 et par lui-même.
+// Par exemple, 2 est un nombre premier, alors que 4 ne l'est pas (il est divisible par 2).
+
+// Écrivez une fonction qui prend un tableau de chaînes de caractères en entrée et qui renvoie une nouvelle liste contenant les chaînes de caractères triées par ordre alphabétique.
+// Par exemple, si on appelle la fonction avec ["girafe", "chien", "chat", "oiseau"] en entrée, elle devra renvoyer ["chat", "chien", "girafe", "oiseau"].
+
+// Écrivez une fonction qui prend un nombre en entrée et qui renvoie la somme des chiffres de ce nombre.
+// Par exemple, si on appelle la fonction avec 123 en entrée, elle devra renvoyer 6 (1 + 2 + 3).
+
+// Écrivez une fonction qui prend un tableau de nombres en entrée et qui renvoie vrai si le tableau est un palindrome (c'est-à-dire si le tableau est le même lorsqu'on le lit de droite à gauche ou de gauche à droite), et faux sinon.
+// Par exemple, si on appelle la fonction avec [1, 2, 3, 2, 1] en entrée, elle devra renvoyer vrai. Si on l'appelle avec [1, 2, 3, 4, 5] en entrée, elle devra renvoyer faux.
